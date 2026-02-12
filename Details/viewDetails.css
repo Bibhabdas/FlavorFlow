@@ -1,0 +1,134 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Container for the whole section */
+#recipeDetails {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Side-by-Side Layout */
+.details-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+/* Image Section (Left) */
+.product-image {
+    flex: 1;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Info Section (Right) */
+.product-info {
+    flex: 1.5;
+}
+
+.product-info h1 {
+    margin-top: 0;
+    font-size: 2.2rem;
+    color: #2c3e50;
+}
+
+.ingredients-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fdfdfd;
+    border-left: 4px solid #ff4757;
+}
+
+.ingredients-section ul {
+    padding-left: 20px;
+}
+
+/* Servings Text (Styled like Price) */
+.price-text {
+    color: #ff4757; 
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+/* Button Group */
+.action-buttons {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-blue {
+    background-color: #2ed573; /* Foody Green */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #26af5c;
+}
+
+.btn-red {
+    background-color: #ff4757; /* Foody Red */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-red:hover {
+    background-color: #e04050;
+}
+
+/* Bottom Sections (Instructions and Reviews) */
+.instructions-section, .reviews-section {
+    margin-top: 30px;
+}
+
+.instructions-section ol {
+    padding-left: 20px;
+}
+
+.instructions-section li {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.stars {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f39c12;
+}
