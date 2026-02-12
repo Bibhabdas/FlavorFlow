@@ -1,0 +1,15 @@
+# VS Code settings
+.vscode/
+
+# Local Storage/Database (if any)
+*.db
+*.local
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log files
+*.log
